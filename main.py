@@ -13,3 +13,9 @@ def getHome():
     return {
         "Message Home": "This is your home"
     }
+
+@app.get("/test")
+def test():
+    return {
+        "message Test": "New endpoint"
+    }
